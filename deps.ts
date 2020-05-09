@@ -2,18 +2,18 @@ export {
   assert,
   assertEquals,
   assertThrowsAsync
-} from "https://deno.land/std@v0.35.0/testing/asserts.ts";
+} from "https://deno.land/std/testing/asserts.ts";
 export {
   Client,
   ClientConfig,
   Connection
-} from "https://deno.land/x/mysql@1.5.0/mod.ts";
+} from "https://raw.githubusercontent.com/tnolan8/deno_mysql/master/mod.ts";
 export {
   Join,
   Order,
   Query,
   replaceParams,
   Where
-} from "https://deno.land/x/sql_builder@1.4.0/mod.ts";
+} from "https://raw.githubusercontent.com/tnolan8/sql-builder/master/mod.ts";
 
 import "./src/Reflect.ts";
